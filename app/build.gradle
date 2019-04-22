@@ -44,4 +44,9 @@ dependencies {
 
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+
+    //Android Architecture Component
+    implementation "android.arch.lifecycle:viewmodel:$arch_version"
+    implementation "android.arch.lifecycle:livedata:$arch_version"
+    implementation "android.arch.lifecycle:extensions:$arch_version"
 }
