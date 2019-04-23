@@ -1,9 +1,6 @@
 package com.tructran.retrofitcoroutines.di.component
 import com.tructran.retrofitcoroutines.MyApplication
-import com.tructran.retrofitcoroutines.di.module.ActivityModule
-import com.tructran.retrofitcoroutines.di.module.AppModule
-import com.tructran.retrofitcoroutines.di.module.NetworkModule
-import com.tructran.retrofitcoroutines.di.module.ViewModelModule
+import com.tructran.retrofitcoroutines.di.module.*
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
@@ -17,6 +14,7 @@ import javax.inject.Singleton
     ActivityModule::class,
     ViewModelModule::class,
     NetworkModule::class,
+    RepositoryModule::class,
 
     AndroidSupportInjectionModule::class    // must have
 ])
