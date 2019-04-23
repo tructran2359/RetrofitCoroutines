@@ -2,10 +2,13 @@
 
 buildscript {
 
-    ext.kotlin_version = '1.3.20'
+    ext.kotlin_version = '1.3.20'   //latest version 1.3.30 has issue when create MapKey of Dagger2
     ext.dagger_version = "2.22.1"
-    ext.retrofit_version = "2.5.0"
     ext.arch_version = "1.1.1"
+    ext.retrofit_version = "2.5.0"
+    ext.okhttp3_version = "3.12.0"
+    ext.kotlin_coroutine_version = "1.0.1"
+    ext.picasso_version = "2.71828"
 
     repositories {
         google()
